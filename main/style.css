@@ -1,0 +1,35 @@
+/* debug */
+.debug-h400 {
+    min-height: 400px;
+}
+.debug-h800 {
+    min-height: 800px;
+}
+
+div {
+    border: 1px solid white;
+}
+
+
+/* helpers */
+.ms_bg-darkblue {background-color: #2c3e50;}
+.ms_bg-cyan {background-color: #1abc9c;}
+.ms_bg-blue {background-color: #3a546d;}
+/* header */
+
+header .ms_navbar-nav {
+    list-style-type: none;
+}
+
+header .ms_navbar-nav li {
+    display: inline-block;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+
+/* main */
+
