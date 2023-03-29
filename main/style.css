@@ -16,13 +16,13 @@ a {
 
 /* header */
 
-header .ms_navbar-nav {
+/* header .ms_navbar-nav {
     all: unset;
 }
 
 header .ms_navbar-nav li {
     display: inline-block;
-}
+} */
 
 /* main */
 
@@ -35,6 +35,10 @@ main hr {
 .ms_portfolio-section hr,
 .ms_contact-me-section hr {
     border: .15rem solid black;
+}
+
+.ms_portfolio-section img:hover {
+    box-shadow: 0 0 5px 5px #1abc9c;
 }
 
 /* footer */

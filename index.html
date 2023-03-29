@@ -12,21 +12,53 @@
     
     <!-- header -->
     <header class="ms_bg-darkblue">
-        <nav class="container">
-          <div class="row p-4 text-white">
-            <div class="col">
-              <a href="#"><h2 class="text-uppercase bold7">Start Bootstrap</h2></a>
-            </div>
-            <div class="col-auto d-flex justify-content-center align-items-center">
-              <ul class="ms_navbar-nav">
-                <a href="#"><li class="text-uppercase bold5">Portfolio</li></a>
-                <a href="#"><li class="text-uppercase bold5 mx-4">About</li></a>
-                <a href="#"><li class="text-uppercase bold5">Contacts</li></a>
-              </ul>
-            </div>
+      <nav class="navbar navbar-dark navbar-expand-md">
+        <div class="container-md">
+          <a class="navbar-brand" href="#">
+            <h2 class="text-uppercase bold7">Start Bootstrap</h2>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <a href="#" class="link-light mx-2">
+                <li class="text-uppercase bold5">Portfolio</li>
+              </a>
+              <a href="#" class="link-light mx-2">
+                <li class="text-uppercase bold5">About</li>
+              </a>
+              <a href="#" class="link-light mx-2">
+                <li class="text-uppercase bold5">Contacts</li>
+              </a>
+            </ul>
           </div>
-        </nav>
+        </div>
+      </nav>
     </header>
+
+    <!-- <nav class="container">
+      <div class="row p-4 text-white">
+        <div class="col">
+          <a href="#" class="link-light">
+            <h2 class="text-uppercase bold7">Start Bootstrap</h2>
+          </a>
+        </div>
+        <div class="col-auto d-flex justify-content-center align-items-center">
+          <ul class="ms_navbar-nav">
+            <a href="#" class="link-light">
+              <li class="text-uppercase bold5">Portfolio</li>
+            </a>
+            <a href="#" class="link-light">
+              <li class="text-uppercase bold5 mx-4">About</li>
+            </a>
+            <a href="#" class="link-light">
+              <li class="text-uppercase bold5">Contacts</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
 
     <!-- main -->
     <main>
@@ -116,7 +148,7 @@
           <div class="row justify-content-center py-3">
             <div class="col-auto">
               <button class="bg-transparent btn border-white text-white px-3">
-                <i class="fa-solid fa-download"></i><span> Download</span>
+                <i class="fa-solid fa-download me-2"></i><span>Download</span>
               </button>              
             </div>
           </div>
@@ -139,10 +171,10 @@
           <div class="row">
             <div class="col-12">
               <form action="get">
-                <input class="form-control border-top-0 border-start-0 border-end-0" type="text" placeholder="Name" required>
-                <input class="form-control border-top-0 border-start-0 border-end-0" type="email" placeholder="Email Address" required>
-                <input class="form-control border-top-0 border-start-0 border-end-0" type="number" placeholder="Phone Number" required>
-                <textarea class="form-control border-top-0 border-start-0 border-end-0" placeholder="Message" name="message" id="" cols="30" rows="10"></textarea>
+                <input class="form-control shadow-none border-0 border-bottom" type="text" placeholder="Name" required>
+                <input class="form-control shadow-none border-0 border-bottom" type="email" placeholder="Email Address" required>
+                <input class="form-control shadow-none border-0 border-bottom" type="number" placeholder="Phone Number" required>
+                <textarea class="form-control shadow-none border-0 border-bottom" placeholder="Message" name="message" id="" cols="30" rows="10"></textarea>
                 <input class="btn ms_bg-cyan text-white mt-3" type="submit">
               </form>
             </div>
@@ -163,10 +195,18 @@
             <div class="col-12 col-md-4 d-flex flex-column align-items-center mb-5">
               <h4>AROUND THE WEB</h4>
               <div class="ms_social-links mt-3">
-                <span><i class="fa-brands fa-facebook-f fa-fw"></i></span>
-                <span><i class="fa-brands fa-google-plus-g fa-fw"></i></span>
-                <span><i class="fa-brands fa-twitter fa-fw"></i></span>
-                <span><i class="fa-brands fa-linkedin-in fa-fw"></i></span>
+                <a href="#" class="link-light">
+                  <span><i class="fa-brands fa-facebook-f fa-fw"></i></span>
+                </a>
+                <a href="#" class="link-light">
+                  <span><i class="fa-brands fa-google-plus-g fa-fw"></i></span>
+                </a>
+                <a href="#" class="link-light">
+                  <span><i class="fa-brands fa-twitter fa-fw"></i></span>
+                </a>
+                <a href="#" class="link-light">
+                  <span><i class="fa-brands fa-linkedin-in fa-fw"></i></span>
+                </a>
               </div>
             </div>
             <div class="col-12 col-md-4 d-flex flex-column align-items-center">
